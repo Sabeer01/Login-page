@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+         body{margin: 0;}
+        .maindiv{
+            display: flex;
+        }
+
+         .div1{ width: 50%;
+         }
+         
+         .logo{height: 50px;
+        width: 250px;
+         margin-top: 45px;}
+        .sign{margin-bottom: 45px;
+            margin-top: 70px;
+            font-family: serif;
+            font-weight: 600;
+            line-height: 1.2;}
+        label{font-family: sans-serif;
+            font-weight: 200;
+            font-size: 12px;
+}
+    input{ margin-top: 10px;
+        margin-bottom: 6px;
+        padding: 10px;
+        border-radius: 5px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(176, 173, 173);
+    }
+    .rm{font-family: monospace;}
+    a{text-decoration: none;}
+    .fp{font-family: monospace; padding-left: 150px;color: #0576E8;}
+  
+    .login{background-color: #0576E8;color: white;border: none;margin-top: 40px;padding: 12px 170px;font-family: monospace;border-radius: 5px;margin-bottom: 20px;}
+    .p1{font-size: 11px;color: rgb(143, 135, 135);font-family: monospace;font-weight: 500;margin-left: 65px;}
+    .p2{font-size: 11px;color: rgb(143, 135, 135);font-family: monospace;font-weight: 500;margin-left: 65px;}
+
+        .div2{ width: 50%;
+            background-image: url("2.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+         }
+        
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+        <div class="div1">
+              <div style="width: 60%;height: 570px;margin-left: 120px;">
+                <img src="Login.png" alt="logo" class="logo">
+                <form>
+                      <h2 class="sign">Sign-In to your account</h2>
+                      <label for="email">Email</label> <br>
+                      <input type="email" name="email" placeholder="Email" size="48">
+                
+                      <label for="pw">Password</label> <br>
+                      <input type="password" style="margin-bottom: 2px;" name="pw" size="48" placeholder="Password">
+                      <input type="checkbox" name="" id=""> <span class="rm">Remember me</span> 
+                       <a href=""><span class="fp">Forgot Password?</span></a>
+                       
+                       <a href=""><button type="submit" class="login">Login</button></a>
+
+            <span class="p1">If you are a vendor, please <a href="" style="color: #0576E8;">Login here</a></span> <br>
+            <span class="p2">If you are a vendor, please <a href="" style="color: #0576E8;">Login here</a></span>
+            
+                      </form>      
+              </div>
+
+        </div>
+
+        <div class="div2">
+        </div>
+    </div>
+</body>
+</html>
